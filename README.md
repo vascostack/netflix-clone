@@ -1,16 +1,42 @@
-# React + Vite
+# 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone tampilan Netflix pakai **React + Tailwind CSS + DaisyUI**.
 
-Currently, two official plugins are available:
+## 📌 Tentang Proyek
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Bikin ulang tampilan Netflix buat belajar. Pakai React biar komponennya reusable, Tailwind buat styling cepet, dan DaisyUI biar ga ribet bikin komponen kayak modal, carousel, navbar.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** - buat UI
+- **Tailwind CSS** - styling
+- **DaisyUI** - komponen siap pakai
+- **Vite** - build tools (cepet)
+- **React Router** - pindah halaman
+- **Axios** - ambil data film
+- **TMDB API** - sumber data film
 
-## Expanding the ESLint configuration
+## ✨ Fitur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Navbar transparan yang berubah pas di-scroll
+- Hero section dengan background film
+- Row daftar film (bisa scroll horizontal)
+- Hover di poster film muncul info
+- Modal preview trailer
+- Carousel buat trending
+- Footer khas Netflix
+- Bisa dibuka di HP, tablet, laptop
+- Mode gelap/terang
+
+## 🚀 Cara Jalanin
+
+**Yang perlu disiapin:**
+- Node.js (versi 18 ke atas)
+- npm (udah ikutan install Node)
+
+**Langkah-langkah:**
+
+1. Clone repo ini
+```bash
+git clone https://github.com/vascostack/netflix-clone.git
+cd netflix-clone

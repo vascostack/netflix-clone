@@ -1,6 +1,6 @@
 function Navbar() {
 	return (
-		<div className="navbar bg-transparent fixed py-2 z-50 shadow-md">
+		<div className="navbar bg-transparent fixed py-2 z-50">
 		  <div className="flex-1">
 		    <a className="btn btn-ghost text-3xl text-red-600">NETFLIX</a>
 		  </div>

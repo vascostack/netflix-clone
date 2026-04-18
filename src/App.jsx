@@ -1,12 +1,13 @@
 import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
-
+import Card from "./components/Card";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero />  
+      <Card />
     </>
   )
 }
